@@ -41,11 +41,11 @@ C++, github, PuTTy, gtest
 
 
 ## Screenshots
-![screenshot1](https://github.com/cs100/final-project-cmira039-gcost003-jtrie002-asimi003/blob/master/resources/CS100_Screenshot1.png)
+![screenshot1](https://github.com/NE1GotGame/CS100_Software_construction_Final_Group_Project.git/resources/CS100_Screenshot1.png)
 
-![screenshot2](https://github.com/cs100/final-project-cmira039-gcost003-jtrie002-asimi003/blob/master/resources/CS100_Screenshot2.png)
+![screenshot2](https://github.com/NE1GotGame/CS100_Software_construction_Final_Group_Project.git/resources/CS100_Screenshot2.png)
 
-![screenshot3](https://github.com/cs100/final-project-cmira039-gcost003-jtrie002-asimi003/blob/master/resources/CS100_Screenshot3.png)
+![screenshot3](https://github.com/NE1GotGame/CS100_Software_construction_Final_Group_Project.git/master/resources/CS100_Screenshot3.png)
 
 ![screenshot4](https://github.com/cs100/final-project-cmira039-gcost003-jtrie002-asimi003/blob/master/resources/CS100_Screenshot4.png)
 
