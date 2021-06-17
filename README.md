@@ -35,19 +35,19 @@ C++, github, PuTTy, gtest
 
 ## Class Diagram
  
- ![UML Diagram](https://github.com/cs100/final-project-cmira039-gcost003-jtrie002-asimi003/blob/master/resources/UMLDiagram.png)
+ ![UML Diagram](https://github.com/NE1GotGame/CS100_Software_construction_Final_Group_Project/master/resources/UMLDiagram.png)
  
  The Planner class will contain the entire collection of TaskInterfaces. The TaskInterfaces, while using the Composition strategy pattern, will allow us to remind the user using any class that is subclassed to TaskInterface. Some examples include: TaskList and Task. In addition, in order to categorize each Task, we will require to create the Classification class. We will be able to assign classifications to each Task. The Builder strategy pattern will be used to create Tasks from scratch. This will allow us to assign defaults and quickly construct objects.
 
 
 ## Screenshots
-![screenshot1](https://github.com/NE1GotGame/CS100_Software_construction_Final_Group_Project.git/resources/CS100_Screenshot1.png)
+![screenshot1](https://github.com/NE1GotGame/CS100_Software_construction_Final_Group_Project/resources/CS100_Screenshot1.png)
 
-![screenshot2](https://github.com/NE1GotGame/CS100_Software_construction_Final_Group_Project.git/resources/CS100_Screenshot2.png)
+![screenshot2](https://github.com/NE1GotGame/CS100_Software_construction_Final_Group_Project/resources/CS100_Screenshot2.png)
 
-![screenshot3](https://github.com/NE1GotGame/CS100_Software_construction_Final_Group_Project.git/master/resources/CS100_Screenshot3.png)
+![screenshot3](https://github.com/NE1GotGame/CS100_Software_construction_Final_Group_Project/master/resources/CS100_Screenshot3.png)
 
-![screenshot4](https://github.com/cs100/final-project-cmira039-gcost003-jtrie002-asimi003/blob/master/resources/CS100_Screenshot4.png)
+![screenshot4](https://github.com/NE1GotGame/CS100_Software_construction_Final_Group_Project/master/resources/CS100_Screenshot4.png)
 
 ## Installation/Usage
 The program installation requires someone to be able to call a .out file.
