@@ -1,19 +1,11 @@
-cmake_minimum_required(VERSION 3.15)
-project(finalProject)
+project(Google_tests)
+add_subdirectory(lib/googletest-master)
+include_directories(${gtest_SOURCE_DIR}/include ${gtest_SOURCE_DIR})
 
-set(CMAKE_CXX_STANDARD 14)
-add_executable(${CMAKE_PROJECT_NAME}.out
-        src/main.cpp )
+# adding the Google_Tests_run target
+add_executable(test.out test.cpp)
 
-# set this flag when running coverage tests in Clion
-#set(CMAKE_CXX_FLAGS "--coverage")
+# linking Google_Tests_run with DateConverter_lib which will be tested
+target_link_libraries(test.out ${CMAKE_PROJECT_NAME}_lib)
 
-# generate debug information
-set(CMAKE_CXX_FLAGS "-g")
-
-include_directories(src)
-add_subdirectory(src)
-
-add_subdirectory(test)
-
-target_link_libraries(${CMAKE_PROJECT_NAME}.out ${CMAKE_PROJECT_NAME}_lib)
+target_link_libraries(test.out gtest gtest_main)
